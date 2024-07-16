@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
+   
+</head>
+<body>
+<div class="container">
+    <div class="center">
+        <h1>Register</h1>
+        <form method="POST" action="" id="signupForm">
+            <div class="txt_field">
+                <input type="text" name="name" id="name" autocomplete="" required />
+                <span></span>
+                <label>Name</label>
+                <div class="error" id="nameError"></div>
+            </div>
+
+            <div class="txt_field">
+                <input type="email" name="email" id="email" autocomplete="" required />
+                <span></span>
+                <label>Email</label>
+                <div class="error" id="emailError"></div>
+            </div>
+
+            <div class="txt_field">
+                <input type="password" name="password" id="password" autocomplete="" required />
+                <span></span>
+                <label>Password</label>
+                <div class="error" id="passwordError"></div>
+            </div>
+
+            <button class="btn" type="button" id="submitBtn">Sign Up</button>
+            <div class="signup_link">
+                Have an Account ? <a href="login.html">Login Here</a>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
+
